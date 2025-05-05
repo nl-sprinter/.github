@@ -105,9 +105,7 @@
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
 
-<div align="center">
- <img src="/images/login.png" alt="main">
-</div>
+
 
 </details>
 
@@ -119,8 +117,22 @@
 <details>
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
-</details>
 
+
+### login 페이지
+<div align="center">
+ <img src="../assets/login.png" alt="main">
+</div>
+
+<br>
+
+### home 페이지
+<div align="center">
+ <img src="../assets/home.png" alt="main">
+</div>
+
+<br>
+</details>
 <br>
 
 # 🗂️ ERD <a name = "erd"></a>
