@@ -80,7 +80,6 @@
 - [협업 방식 - Trello,Notion](#work)
 - [ERD](#erd)  
 - [테스트 및 모니터링](#test)
-- [기술 선택의 이유](#why)
 - [리팩토링 & 성능 개선](#refactoring)
 - [성과 및 회고](#retrospection)
 
@@ -239,7 +238,7 @@
  <img src="../assets/trello.png" alt="erd">
 </div>
 
-저희는 trello를 사용하여 그날 회의 내용과 해야할 일을 적어 칸반보드로 정리하였습니다.
+저희 팀은 Trello를 활용하여 회의 중 논의된 내용과 작업 항목들을 정리하였고, 이를 칸반보드 형태로 시각화하여 업무 진행 상황을 한눈에 파악할 수 있도록 관리했습니다.
 </details>
 <br>
 
@@ -253,6 +252,54 @@
 <div align="center">
  <img src="../assets/ERD.png" alt="erd">
 </div>
+🧩 전체 구조 요약
+
+1. 👤 사용자(User) 관련  
+	•	User: 사용자의 기본 정보 (닉네임, 비밀번호, 이메일)  
+	•	Like: 댓글에 대한 좋아요 기능 구현  
+  ---
+2. 📁 프로젝트(Project)   
+	•	Project: 프로젝트의 정보 (이름, 생성일, 팀장 여부 등)  
+	•	Schedule, Sprint를 통해 세부 일정 및 작업과 연결  
+  ---
+3. 📅 일정(Schedule)  
+	•	Schedule: 프로젝트 내 일정 항목 (제목, 시작/종료 시간, 알림 여부)  
+	•	UserSchedule: 일정을 함께 하는 사용자들과의 관계  
+  ---
+4. 🌀 스프린트(Sprint)  
+	•	Sprint: 특정 프로젝트의 반복 주기 단위 (이름, 순서, 시작/종료일)  
+	•	하나의 Project에 여러 Sprint가 연결됨  
+	•	DailyScrum, Backlog와 연결됨  
+  ---
+5. 📋 백로그(Backlog)  
+	•	Backlog: 작업 항목 (제목, 무게, 완료 여부 등)  
+	•	Sprint에 속함  
+	•	Task, Issue, Comment, Like와 연결되어 세부적인 관리 가능  
+  ---
+6. ✅ 태스크(Task) & 이슈(Issue)  
+	•	Task: 백로그의 세부 작업 항목  
+	•	Issue: 백로그의 문제점/이슈를 별도로 관리  
+  ---
+7. 💬 댓글(BacklogComment)  
+	•	BacklogComment: 백로그에 대한 댓글 시스템  
+	•	parent_comment_id를 이용한 대댓글 구조 가능  
+	•	Like와 연결되어 좋아요 기능 구현  
+  ---
+8. 📌 데일리 스크럼(DailyScrum)  
+	•	DailyScrum: 매일 회고나 공유를 위한 간단한 작성 기능  
+  ---
+9. 🔔 알림(Notification)  
+	•	Notification: 특정 사용자에게 특정 프로젝트/작업과 관련된 알림 제공  
+	•	예: “새로운 댓글이 달렸습니다”, “업무가 할당되었습니다”  
+  ---
+10. 🧠 중간테이블  
+	•	UserProject: 어떤 사용자가 어떤 프로젝트에 속해 있는지  
+	•	UserSchedule: 사용자와 일정의 관계  
+	•	UserDailyScrum / UserBacklog: 사용자의 데일리 스크럼 및 백로그 참여 정보  
+	•	UserProject를 통해 사용자들과 연결됨  
+	•	UserBacklog: 어떤 사용자가 어떤 백로그에 참여했는지  
+	•	UserDailyScrum: 데일리 스크럼에 참여한 사용자들  
+	•	DailyScrumBacklog: 데일리 스크럼과 백로그 연결 (오늘 어떤 일 했는지   표현 가능)  
 
 </details>
 
@@ -264,15 +311,7 @@
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
 
-</details>
-
-<br>
-
-# 🧠 기술 선택의 이유 <a name = "why"></a>
-
-<details>
-   <summary> 자세히 보기 (🔽 Click)</summary>
-<br />
+여기는 테스트 후에 작성
 
 </details>
 
@@ -283,6 +322,7 @@
 <details>
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
+여기는 리팩토링과 성능개선 후에 작성
 
 </details>
 
@@ -293,6 +333,13 @@
 <details>
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
+
+	•	기술적 성과
+	•	협업 성과
+
+	•	잘한 점
+	•	아쉬운 점
+	•	배운 점
 
 </details>
 
