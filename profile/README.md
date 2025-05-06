@@ -76,7 +76,7 @@
 
 - [프로젝트 개요](#outline)
 - [아키텍처](#structure)
-- [프로젝트 결과](#outputs)
+- [주요 기능](#outputs)
 - [협업 방식 - Trello,Notion](#work)
 - [ERD](#erd)  
 - [테스트 및 모니터링](#test)
@@ -112,13 +112,16 @@
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
 
+<div align="center">
+ <img src="../assets/infra.png" alt="main">
+</div>
 
 </details>
 
 
 <br>
 
-# 🏆 프로젝트 결과  <a name = "outputs"></a>
+# 🏆 주요 기능  <a name = "outputs"></a>
 
 <details>
    <summary> 자세히 보기 (🔽 Click)</summary>
@@ -137,8 +140,93 @@
  <img src="../assets/home.png" alt="main">
 </div>
 
+### 도움말 페이지
+<div align="center">
+ <img src="../assets/helper.png" alt="main">
+</div>
+
 <br>
+
+<br>
+
+### 프로젝트 생성 페이지
+<div align="center">
+ <img src="../assets/createProject.png" alt="main">
+ <img src="../assets/projectWithAi.png" alt="main">
+ <img src="../assets/modifyAfterCreate.png" alt="main">
+</div>
+
+<br>
+
+### overview 페이지
+<div align="center">
+ <img src="../assets/overview.png" alt="main">
+</div>
+
+<br>
+
+### product backlog 페이지
+<div align="center">
+ <img src="../assets/productBacklog.png" alt="main">
+</div>
+
+<br>
+
+### sprint 페이지
+<div align="center">
+ <img src="../assets/sprint.png" alt="main">
+</div>
+번다운 차트 기용 ... ... 
+<br>
+
+### sprint 상세 페이지
+<div align="center">
+ <img src="../assets/sprint1.png" alt="main">
+</div>
+설명
+
+<br>
+
+### backlog 페이지
+<div align="center">
+ <img src="../assets/backlog.png" alt="main">
+</div>
+(issue와 task ... 설명추가)
+<br>
+
+### 검색 페이지
+<div align="center">
+ <img src="../assets/search.png" alt="main">
+</div>
+
+<br>
+
+### 캘린더 페이지
+<div align="center">
+ <img src="../assets/calendar.png" alt="main">
+ <img src="../assets/createSchedule.png" alt="main">
+</div>
+
+<br>
+
+### 상단바 메뉴
+<div align="center">
+ <img src="../assets/todo.png" alt="main">
+ <img src="../assets/notification.png" alt="main">
+ <img src="../assets/chat.png" alt="main">
+</div>
+
+<br>
+
+### 세팅 페이지
+<div align="center">
+ <img src="../assets/projectSetting.png" alt="main">
+</div>
+
+<br>
+
 </details>
+
 <br>
 
 # 🏗️ 협업 방식  <a name = "work"></a>
@@ -147,7 +235,11 @@
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
 
+<div align="center">
+ <img src="../assets/trello.png" alt="erd">
+</div>
 
+저희는 trello를 사용하여 그날 회의 내용과 해야할 일을 적어 칸반보드로 정리하였습니다.
 </details>
 <br>
 
