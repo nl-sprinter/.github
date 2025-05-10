@@ -347,4 +347,4 @@
 
 ## 📂 문서 자료
 
-- [보고서](https://github.com/sprinter/...~~~~)
+- [보고서](https://github.com/sprinter/)
