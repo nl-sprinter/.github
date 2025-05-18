@@ -175,7 +175,7 @@
 <div align="center">
  <img src="../assets/sprint.png" alt="main">
 </div>
-번다운 차트 기용 ... ... 
+번다운 차트 기용
 <br>
 
 ### sprint 상세 페이지
@@ -190,7 +190,6 @@
 <div align="center">
  <img src="../assets/backlog.png" alt="main">
 </div>
-(issue와 task ... 설명추가)
 <br>
 
 ### 검색 페이지
@@ -252,7 +251,7 @@
 <div align="center">
  <img src="../assets/ERD.png" alt="erd">
 </div>
-🧩 전체 구조 요약
+🧩 전체 구조 요약  
 
 1. 👤 사용자(User) 관련  
 	•	User: 사용자의 기본 정보 (닉네임, 비밀번호, 이메일)  
@@ -264,7 +263,6 @@
   ---
 3. 📅 일정(Schedule)  
 	•	Schedule: 프로젝트 내 일정 항목 (제목, 시작/종료 시간, 알림 여부)  
-	•	UserSchedule: 일정을 함께 하는 사용자들과의 관계  
   ---
 4. 🌀 스프린트(Sprint)  
 	•	Sprint: 특정 프로젝트의 반복 주기 단위 (이름, 순서, 시작/종료일)  
@@ -295,7 +293,6 @@
 10. 🧠 중간테이블  
 	•	UserProject: 어떤 사용자가 어떤 프로젝트에 속해 있는지  
 	•	UserSchedule: 사용자와 일정의 관계  
-	•	UserDailyScrum / UserBacklog: 사용자의 데일리 스크럼 및 백로그 참여 정보  
 	•	UserProject를 통해 사용자들과 연결됨  
 	•	UserBacklog: 어떤 사용자가 어떤 백로그에 참여했는지  
 	•	UserDailyScrum: 데일리 스크럼에 참여한 사용자들  
@@ -305,27 +302,13 @@
 
 <br>
 
-# 🧪 테스트 및 모니터링 <a name = "test"></a>
+# 🧪 테스트 및 리팩토링 <a name = "test"></a>
 
 <details>
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
-
-여기는 테스트 후에 작성
-
+(~08/31)
 </details>
-
-<br>
-
-# 🧹 리팩토링 & 성능 개선 <a name = "refactoring"></a>
-
-<details>
-   <summary> 자세히 보기 (🔽 Click)</summary>
-<br />
-여기는 리팩토링과 성능개선 후에 작성
-
-</details>
-
 <br>
 
 # 💬 성과 및 회고 <a name = "retrospection"></a>
@@ -333,13 +316,6 @@
 <details>
    <summary> 자세히 보기 (🔽 Click)</summary>
 <br />
-
-	•	기술적 성과
-	•	협업 성과
-
-	•	잘한 점
-	•	아쉬운 점
-	•	배운 점
 
 </details>
 
